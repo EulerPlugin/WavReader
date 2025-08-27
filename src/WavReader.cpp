@@ -2,6 +2,7 @@
 #include <fstream>
 #include <format>
 #include <iostream>
+#include <ranges>
 
 namespace wav{
 
@@ -60,6 +61,23 @@ void WavReader::read()
     file.read(dataHeader_.subChunk2Id.data(), dataHeader_.subChunk2Id.size());
 
     readField(dataHeader_.subChunk2Size);
+
+    frameCount_ = dataHeader_.subChunk2Size / header_.blockAlign;
+
+    firstChannelSamples_.reserve(frameCount_);
+
+    const auto sampleSize = header_.bitsperSample / 8u;
+    for(auto i: std::views::iota(0u, frameCount_)){
+        uint16_t sample = 0u;
+        file.read(reinterpret_cast<char*>(&sample), sampleSize);
+
+        firstChannelSamples_.push_back(convertSample(sample, header_.bitsperSample));
+
+        for(auto channel: std::views::iota(1u, header_.chanelCount))    // Discarding the useless channel data
+        {
+            file.read(reinterpret_cast<char*>(&sample), sampleSize); 
+        }
+    }
 }
 
 void WavReader::printInfo()
@@ -107,7 +125,8 @@ void WavReader::printInfo()
     printArray("SubChunk 2 Id", dataHeader_.subChunk2Id);
 
     printLine("SubChunk 2 Size", dataHeader_.subChunk2Size);
-}
 
+    printLine("Frame Count", frameCount_);
+}
 
 }

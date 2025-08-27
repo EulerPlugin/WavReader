@@ -2,7 +2,7 @@
 #include <string>
 #include <filesystem>
 #include <array>
-
+#include <vector>
 
 namespace wav {
 
@@ -58,6 +58,12 @@ namespace wav {
             std::uintmax_t fileSize_;
             WavHeader header_;
             DataHeader dataHeader_;
+            
+            std::size_t frameCount_{};
+            std::vector<float> firstChannelSamples_;
+            
+
+
 
     };
 }
