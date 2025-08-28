@@ -516,6 +516,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o: /Users/sanghoonyou/Desktop/DSP_Wol
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/binder1st.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/binder2nd.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/compose.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/default_searcher.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/function.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/hash.h \
@@ -542,6 +543,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o: /Users/sanghoonyou/Desktop/DSP_Wol
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/format.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/fstream.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/functional.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/get.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/ios.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/istream.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/memory.h \
@@ -549,6 +551,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o: /Users/sanghoonyou/Desktop/DSP_Wol
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/ostream.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/pair.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/queue.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/span.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/sstream.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/stack.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/streambuf.h \
@@ -583,6 +586,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o: /Users/sanghoonyou/Desktop/DSP_Wol
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iter_swap.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iterator.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iterator_traits.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iterator_with_data.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/mergeable.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/move_iterator.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/move_sentinel.h \
@@ -686,19 +690,44 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o: /Users/sanghoonyou/Desktop/DSP_Wol
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__random/uniform_int_distribution.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__random/uniform_random_bit_generator.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/access.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/all.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/common_view.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/concepts.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/container_compatible_range.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/counted.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/dangling.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/data.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/drop_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/drop_while_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/elements_view.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/empty.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/empty_view.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/enable_borrowed_range.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/enable_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/filter_view.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/from_range.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/iota_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/istream_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/join_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/lazy_split_view.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/movable_box.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/non_propagating_cache.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/owning_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/range_adaptor.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/rbegin.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/ref_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/rend.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/repeat_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/reverse_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/single_view.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/size.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/split_view.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/subrange.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/take_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/take_while_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/transform_view.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/view_interface.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/views.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__split_buffer \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__std_mbstate_t.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__string/char_traits.h \
@@ -720,6 +749,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o: /Users/sanghoonyou/Desktop/DSP_Wol
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/sfinae_helpers.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_element.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_indices.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_like.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_like_ext.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_like_no_subrange.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_size.h \
@@ -843,6 +873,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o: /Users/sanghoonyou/Desktop/DSP_Wol
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/void_t.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__undef_macros \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/as_const.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/as_lvalue.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/auto_cast.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/cmp.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/convert_to_integral.h \
@@ -923,7 +954,9 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o: /Users/sanghoonyou/Desktop/DSP_Wol
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/ostream \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/print \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/queue \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/ranges \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/ratio \
+  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/span \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/stack \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/stddef.h \
   /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/stdexcept \
@@ -1960,38 +1993,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
   /opt/homebrew/Cellar/llvm/20.1.8/lib/clang/20/include/stdint.h
 
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/span:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/as_lvalue.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/transform_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/split_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/reverse_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/owning_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/non_propagating_cache.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/lazy_split_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/istream_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/iota_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/filter_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/empty_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/elements_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/counted.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/common_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/compose.h:
-
 /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/WavReader/src/main.cpp:
 
 /opt/homebrew/Cellar/llvm/20.1.8/lib/clang/20/include/stdint.h:
@@ -2033,6 +2034,8 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/stdio.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/stddef.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/span:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/ratio:
 
@@ -2126,10 +2129,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/is_pointer_in_range.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/views.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/integer_sequence.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/in_place.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/forward_like.h:
@@ -2148,15 +2147,13 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/auto_cast.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/as_lvalue.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/as_const.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__undef_macros:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/unwrap_ref.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/join_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/underlying_type.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/type_list.h:
 
@@ -2167,10 +2164,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/remove_cvref.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/remove_cv.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/span.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/rank.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/promote.h:
 
@@ -2206,43 +2199,47 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_standard_layout.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_signed.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_scalar.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_same.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_reference_wrapper.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_reference.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_primary_template.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_integral.h:
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_polymorphic.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_pointer.h:
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_pod.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_object.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_nothrow_destructible.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_nothrow_convertible.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__cstddef/nullptr_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/xlocale.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_nothrow_constructible.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_literal_type.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/find_if_not.h:
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_pointer.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_function.h:
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_integral.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/streambuf.h:
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/cstdio:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_final.h:
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_fundamental.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_floating_point.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_equality_comparable.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_empty.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_u_int8_t.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_core_convertible.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/exception:
 
@@ -2278,8 +2275,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_arithmetic.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_floating_point.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_allocator.h:
@@ -2297,8 +2292,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/dependent_type.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/container_traits.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/conjunction.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/common_type.h:
 
@@ -2320,13 +2313,9 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_types.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_signed.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_like_no_subrange.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_element.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/sfinae_helpers.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/incrementable_traits.h:
 
@@ -2337,8 +2326,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__thread/support/pthread.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__thread/support.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_same.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__thread/id.h:
 
@@ -2366,11 +2353,19 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/ref_view.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/stack.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/rbegin.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_enum.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/set_union.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/movable_box.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/istream_view.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/iota_view.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/wchar.h:
 
@@ -2378,9 +2373,27 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/from_range.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__format/format_string.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/take_while_view.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/minmax.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/enable_view.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/empty_view.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/elements_view.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/sfinae_helpers.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/istream_iterator.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/drop_view.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/reverse_view.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/counted.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/alloca.h:
 
@@ -2388,13 +2401,17 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/container_compatible_range.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/conjunction.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/common_view.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__format/formatter_floating_point.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/all.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_copy_backward.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__random/uniform_int_distribution.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__atomic/to_gcc_order.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_destructible.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/sort.h:
 
@@ -2407,6 +2424,8 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__new/placement_new_delete.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/datasizeof.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/filter_view.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_fd_clr.h:
 
@@ -2435,8 +2454,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__mutex/once_flag.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__mutex/mutex.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__mutex/lock_guard.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__memory/unique_temporary_buffer.h:
 
@@ -2467,6 +2484,10 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__memory/shared_count.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__memory/ranges_uninitialized_algorithms.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/projected.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/range_adaptor.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__memory/ranges_construct_at.h:
 
@@ -2518,10 +2539,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__math/modulo.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/unistd.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_referenceable.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/lib/clang/20/include/__stddef_offsetof.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__math/hypot.h:
@@ -2563,6 +2580,10 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/move_iterator.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/mergeable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_caddr_t.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iterator_with_data.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iterator.h:
 
@@ -2610,6 +2631,10 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__math/fdim.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_final.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/streambuf.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__system_error/error_condition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/strings.h:
@@ -2618,13 +2643,9 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/reverse_access.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/rbegin.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/stack.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_mode_t.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/get.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_mode_t.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/sstream.h:
 
@@ -2679,6 +2700,10 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/identity.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/function.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__mutex/lock_guard.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/compose.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/boyer_moore_searcher.h:
 
@@ -2768,6 +2793,10 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/ignore.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/underlying_type.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/join_view.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/in_fun_result.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__filesystem/directory_iterator.h:
@@ -2856,9 +2885,9 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__concepts/copyable.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/drop_while_view.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/array:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/drop_while_view.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__math/remainder.h:
 
@@ -2869,8 +2898,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/lib/clang/20/include/__stddef_size_t.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__concepts/convertible_to.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_reference.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__concepts/common_reference_with.h:
 
@@ -2900,9 +2927,9 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__compare/is_eq.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/range_adaptor.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/projected.h:
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/rend.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__compare/compare_three_way_result.h:
 
@@ -2999,6 +3026,12 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/transform.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/swap_ranges.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_nothrow_constructible.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__cstddef/nullptr_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/xlocale.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/in_in_out_result.h:
 
@@ -3106,9 +3139,9 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_transform.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/take_view.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_is_heap_until.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/take_view.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
@@ -3192,6 +3225,10 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/arm/limits.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_referenceable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/unistd.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/binary_function.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
@@ -3246,6 +3283,8 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/sort_heap.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/lazy_split_view.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/remove_const.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__filesystem/directory_entry.h:
@@ -3266,8 +3305,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_count_if.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_pod.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iter_swap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/_ctype.h:
@@ -3282,6 +3319,8 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_abstract.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/non_propagating_cache.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__atomic/aliases.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/resource.h:
@@ -3290,11 +3329,11 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_contains.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/repeat_view.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__format/unicode.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/repeat_view.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
@@ -3422,15 +3461,13 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/includes.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/owning_view.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/reverse.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/enable_if.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iterator_with_data.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_caddr_t.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/generate.h:
 
@@ -3449,6 +3486,10 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/wchar.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/permutable.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_function.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/find_if_not.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/mem_fn.h:
 
@@ -3488,11 +3529,15 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/find_if.h:
 
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/integer_sequence.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/views.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_destructible.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__atomic/to_gcc_order.h:
+
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/binary_search.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/all.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__format/formatter_floating_point.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/copy_n.h:
 
@@ -3540,13 +3585,15 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_uid_t.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_nothrow_destructible.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_u_short.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_is_sorted_until.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/min_max_result.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_core_convertible.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_u_int8_t.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_max_element.h:
 
@@ -3619,10 +3666,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/max.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/next.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/cstdio:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/rotate.h:
 
@@ -3716,10 +3759,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_clock_t.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/take_while_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__format/format_string.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_rotate_copy.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/ostream_iterator.h:
@@ -3748,10 +3787,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/AvailabilityInternal.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/rend.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/reference_wrapper.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/stable_partition.h:
@@ -3768,9 +3803,9 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/errno.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_fundamental.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/syslimits.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/transform_view.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/xlocale/_ctype.h:
 
@@ -3783,6 +3818,10 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/pthread/pthread_impl.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/rotate_copy.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/is_sorted.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_like.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/errno.h:
 
@@ -3819,10 +3858,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/_types/_uint16_t.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/drop_view.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/istream_iterator.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_for_each_n.h:
 
@@ -3870,8 +3905,6 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/binary_negate.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_reference_wrapper.h:
-
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/partition_copy.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/ranges_upper_bound.h:
@@ -3884,13 +3917,9 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/_types/_wctype_t.h:
 
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/is_polymorphic.h:
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/split_view.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/replace_if.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_like.h:
-
-/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__algorithm/is_sorted.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/_types.h:
 
@@ -3939,6 +3968,10 @@ CMakeFiles/WavReader.dir/src/main.cpp.o: /Users/sanghoonyou/Desktop/DSP_WolfSoun
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__format/range_formatter.h:
 
 /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__math/inverse_hyperbolic_functions.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/rank.h:
+
+/opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/span.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include/sys/_types/_blkcnt_t.h:
 

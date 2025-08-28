@@ -517,6 +517,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/binder1st.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/binder2nd.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/boyer_moore_searcher.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/compose.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/default_searcher.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/function.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__functional/hash.h
@@ -543,6 +544,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/format.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/fstream.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/functional.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/get.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/ios.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/istream.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/memory.h
@@ -550,6 +552,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/ostream.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/pair.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/queue.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/span.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/sstream.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/stack.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__fwd/streambuf.h
@@ -584,6 +587,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iter_swap.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iterator.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iterator_traits.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/iterator_with_data.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/mergeable.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/move_iterator.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__iterator/move_sentinel.h
@@ -687,19 +691,44 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__random/uniform_int_distribution.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__random/uniform_random_bit_generator.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/access.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/all.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/common_view.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/concepts.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/container_compatible_range.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/counted.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/dangling.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/data.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/drop_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/drop_while_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/elements_view.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/empty.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/empty_view.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/enable_borrowed_range.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/enable_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/filter_view.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/from_range.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/iota_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/istream_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/join_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/lazy_split_view.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/movable_box.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/non_propagating_cache.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/owning_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/range_adaptor.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/rbegin.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/ref_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/rend.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/repeat_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/reverse_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/single_view.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/size.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/split_view.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/subrange.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/take_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/take_while_view.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/transform_view.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/view_interface.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__ranges/views.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__split_buffer
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__std_mbstate_t.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__string/char_traits.h
@@ -721,6 +750,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/sfinae_helpers.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_element.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_indices.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_like.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_like_ext.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_like_no_subrange.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__tuple/tuple_size.h
@@ -844,6 +874,7 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__type_traits/void_t.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__undef_macros
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/as_const.h
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/as_lvalue.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/auto_cast.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/cmp.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/__utility/convert_to_integral.h
@@ -924,7 +955,9 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/ostream
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/print
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/queue
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/ranges
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/ratio
+ /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/span
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/stack
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/stddef.h
  /opt/homebrew/Cellar/llvm/20.1.8/include/c++/v1/stdexcept

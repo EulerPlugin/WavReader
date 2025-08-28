@@ -12,13 +12,17 @@ void analyzeWav(const std::string& pathToWav)
     WavReader wavReader(path);
     wavReader.read();
     wavReader.printInfo();
-    
+    wavReader.printAsAscii();
+    wavReader.printAsHex();
+
+    const auto binaryPath = path.parent_path() / (path.stem().string() + "bin");
+    wavReader.saveAsBinaryFile(binaryPath);
 }
 
 WavReader::WavReader(std::filesystem::path pathToWav)
 :pathToWav_(std::move(pathToWav))
 {
-
+    
 }
 
 void WavReader::read()
@@ -80,6 +84,52 @@ void WavReader::read()
     }
 }
 
+void WavReader::printAsAscii()
+{
+    printUsing([](char c){
+        const auto unsignedC = static_cast<unsigned char>(c);
+        if(std::isprint(unsignedC)) {
+            std::cout << unsignedC;
+        } else {
+            std::cout << ".";
+        }
+    });
+
+    std::cout << std::endl;
+}
+
+void WavReader::printAsHex() {
+    printUsing([](char c){
+        std::cout << std::hex << std::setw(2) << std::setfill('0') << 
+        std::uppercase << static_cast<int>(*reinterpret_cast<unsigned char*>(&c)) << " ";
+    }
+    );
+}
+
+void WavReader::printUsing(std::function<void(char)> printingFunction) {
+
+    std::ifstream file(pathToWav_, std::ios::binary);
+
+    if(!file)
+    {
+        throw std::runtime_error{"failed to open file"};
+    }
+
+    char readByte;
+    int byteCount = 0;
+
+    while(file.read(&readByte, sizeof(readByte))) {
+        printingFunction(readByte);
+        constexpr auto BYTE_PER_LINE = 10;
+        ++byteCount;
+        if (byteCount % BYTE_PER_LINE == 0) {
+            std::cout << std:: endl;
+        }
+
+    }
+}
+
+
 void WavReader::printInfo()
 {
     if(fileSize_ == 0)
@@ -129,4 +179,25 @@ void WavReader::printInfo()
     printLine("Frame Count", frameCount_);
 }
 
+
+
+// Save wave data as a floating-point pattern
+void WavReader::saveAsBinaryFile(const std::filesystem::path& pathToBinary){
+
+    std::filesystem::create_directories(pathToBinary.parent_path());
+
+    std::ofstream file(pathToBinary, 
+                       std::ios::binary | std::ios::out | std::ios::trunc);
+    
+    if(!file){
+        throw std::runtime_error("fail to open output file for wiriting");
+    }
+
+    file.write(reinterpret_cast<char*>(firstChannelSamples_.data()), 
+                                       sizeof(decltype(firstChannelSamples_)::value_type) * firstChannelSamples_.size());
+
+    
 }
+
+}
+

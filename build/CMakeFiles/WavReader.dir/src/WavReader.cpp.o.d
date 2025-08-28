@@ -960,4 +960,37 @@ CMakeFiles/WavReader.dir/src/WavReader.cpp.o: \
   /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__filesystem/u8path.h \
   /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/fstream \
-  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/iostream
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/iostream \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/ranges \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/all.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__functional/compose.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/owning_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/range_adaptor.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/common_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/counted.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/span \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__fwd/span.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/drop_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/empty_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/iota_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/non_propagating_cache.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/repeat_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/drop_while_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/elements_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__fwd/get.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__tuple/tuple_like.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/filter_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/join_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__iterator/iterator_with_data.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__utility/as_lvalue.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/lazy_split_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/single_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/rbegin.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/rend.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/reverse_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/split_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/take_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/take_while_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/transform_view.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/views.h \
+  /opt/homebrew/Cellar/llvm/20.1.8/bin/../include/c++/v1/__ranges/istream_view.h
