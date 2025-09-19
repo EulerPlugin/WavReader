@@ -152,5 +152,5 @@ namespace wav {
 - Parse **extended fmt** when `subChunk1Size > 16` (support `WAVE_FORMAT_EXTENSIBLE`).
 - Strengthen **diagnostics** for malformed headers and derived-field mismatches.
 - Optional: peek a few **sample frames** to verify PCM vs IEEE float interpretation.
-ㅇ
+
 
